@@ -45,7 +45,6 @@ public class StaticTweets {
      *
      * @return String that will be returned as an application/json response.
      */
-    /* --- Remove this comment to allow for Filtered Searching 
     @Path("{search}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -60,8 +59,6 @@ public class StaticTweets {
 
 		
     }
-	
-    --- Remove this comment to allow for Filtered Searching */
     
 	private void runTask(ChunkedOutput<String> output, String s) {
         new Thread(() -> {
